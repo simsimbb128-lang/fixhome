@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixHome | Home Services Platform</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+    <video autoplay muted loop playsinline class="logo-video">
+        <source src="videos/logo.mp4" type="video/mp4">
+    </video>
+
+    <h2>FixHome</h2>
+</div>
+
+<button class="menu-btn" id="menu-btn">
+    <i class="fas fa-bars"></i>
+</button>
+
+<ul id="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="nav-buttons">
+    <button class="language-btn" id="language-btn">
+        AR | EN
+    </button>
+
+    <a href="#contact" class="book-btn">
+        Book Now
+    </a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="videos/logo.mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <h1>Professional Home Services</h1>
+
+        <p>Everything your home needs in one trusted platform.</p>
+
+        <div class="hero-buttons">
+            <a href="#services" class="primary-btn">Explore Services</a>
+            <a href="#contact" class="secondary-btn">Contact Us</a>
+        </div>
+    </div>
+
+</section>
+
+<section id="services" class="services">
+
+<h2 id="services-title">Our Services</h2>
+
+<div class="service-container">
+    <div class="service-card">
+    <i class="fas fa-bolt"></i>
+    <h3 id="service1-title">Electrical</h3>
+<p id="service1-text">Professional electrical installation and repair services.</p>
+</div>
+
+<div class="service-card">
+    <i class="fas fa-faucet"></i>
+    <h3 id="service2-title">Plumbing</h3>
+    <p>Fast plumbing maintenance and leak repair.</p>
+</div>
+
+<div class="service-card">
+    <i class="fas fa-snowflake"></i>
+    <h3 id="service3-title">Air Conditioning</h3>
+    <p>Installation, maintenance and cleaning of air conditioners.</p>
+</div>
+
+<div class="service-card">
+    <i class="fas fa-paint-roller"></i>
+    <h3 id="service4-title">Painting</h3>
+    <p>Professional interior and exterior painting services.</p>
+</div>
+
+<div class="service-card">
+    <i class="fas fa-hammer"></i>
+    <h3 id="service5-title">Carpentry</h3>
+    <p>Furniture assembly and custom carpentry solutions.</p>
+</div>
+    
+</div>
+</section>
+
+<section id="about" class="about">
+
+<div class="about-container">
+
+<div class="about-text">
+
+<h2>About FixHome</h2>
+
+<p>
+FixHome is a trusted home services platform that connects customers with experienced technicians in electrical work, plumbing, air conditioning, painting, carpentry, and cleaning. We provide fast, reliable, and professional services to keep your home in perfect condition.
+</p>
+
+<a href="#contact" class="primary-btn">
+Book a Service
+</a>
+
+</div>
+
+<div class="about-image">
+    <video autoplay muted loop playsinline class="about-video">
+        <source src="videos/about.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="gallery">
+
+    <h2>Our Work</h2>
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img src="images/الكهرباء.png" alt="الكهرباء">
+            <h3>الكهرباء</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/السباكة.png" alt="السباكة">
+            <h3>السباكة</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/الدهانات.png" alt="الدهانات">
+            <h3>الدهانات</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/النجارة.png" alt="النجارة">
+            <h3>النجارة</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/النظافة.png" alt="النظافة">
+            <h3>النظافة</h3>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/صيانة المكيفات والبوتجازات.png" alt="صيانة المكيفات والبوتجازات">
+            <h3>صيانة المكيفات والبوتجازات</h3>
+        </div>
+
+    </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <form class="contact-form">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <select required>
+            <option value="">Select Service</option>
+            <option>Electrical</option>
+            <option>Plumbing</option>
+            <option>Air Conditioning</option>
+            <option>Painting</option>
+            <option>Carpentry</option>
+            <option>Cleaning</option>
+        </select>
+
+        <textarea rows="6" placeholder="Describe your request"></textarea>
+
+        <button type="submit" class="primary-btn">
+            Send Request
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>FixHome</h2>
+
+        <p>
+            Professional Home Services Platform
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 FixHome. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+<script src="js/main.js"></script>
+
+</body>
+</html>
