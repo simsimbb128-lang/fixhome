@@ -518,13 +518,15 @@ animation: bgMove 10s ease infinite;
     flex:1;
 }
 
-.about-image img{
-    width:100%;
-    border-radius:20px;
-    box-shadow:var(--shadow);
-    
+.about-image video{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    display: block;
+    margin: auto;
 }
-
 /* =========================
         Gallery
 ========================= */
